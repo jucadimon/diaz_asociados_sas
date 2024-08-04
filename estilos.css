@@ -92,3 +92,12 @@ menu {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
