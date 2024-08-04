@@ -1,0 +1,63 @@
+body {
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: lightgray;
+}
+
+.contenedor{
+    width: 60%;
+    height: 90%;
+    margin: 1% 1% 1% 1%;
+    border: 15px solid dodgerblue;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div{
+    margin: .4em 0;
+    width: 95%;
+    color: dodgerblue;
+    background-color: whitesmoke;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+fieldset, option, input, optgroup, select{
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+
+label{
+    color: green;
+    font-style: oblique;
+    background-color: whitesmoke;
+}
+
+p{
+    text-align: left;
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+}
+
+.banner {
+    color:#fff;
+	background:#2c2c2c;
+    border: 1px solid black;
+}
+
+.publicidad {
+    clear: both;
+	background:#2c2c2c;
+	color:#fff;
+	padding:50px 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    border: 1px solid black;
+}
