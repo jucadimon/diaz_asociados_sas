@@ -1,32 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- Cabecera de la pagina web -->
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <meta charset="UTF-8">
     <title>DIAZ Y ASOCIADOS SAS</title>
+    <link rel="stylesheet" type="text/css" href="estilovias.css">
 </head>
-<body>
-    <div id="presentacion">
-    
-    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-    <map name="workmap">
-      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-      <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-    </map>
-        
-    <h1>DIAZ Y ASOCIADOS SAS</h1>
-    <p>DIAZ Y ASOCIADOS SAS es una empresa del sector de la construcción, desarrollando sus actividades comerciales en el país de Colombia.</p>
-    </div>
-    <div id=proyectos>
-    <h1>DIAZ Y ASOCIADOS SAS</h1>
-    <p>DIAZ Y ASOCIADOS SAS es una empresa del sector de la construcción, desarrollando sus actividades comerciales en el país de Colombia.</p>
-    </div>
-</body>
+<!-- Fin de laCabecera de la pagina web -->
 
-<footer>
+<!-- Inicio Cuerpo de la pagina web -->
+<body>
+    <p>-*-*--*-*--*-*--*-*--*-*--*-*--*-*--*-*-</p>
+    <section id="contenedor"><!-- inicio contenedor principal -->
+        
+        <section id="banner"><!-- inicio banner -->
+            <!--imagenes que muestran el logotipo de la pagina-->
+            <h1>Bienvenidos</h1>
+            <p>DIAZ Y ASOCIADOS SAS es una empresa del sector de la construcción, desarrollando sus actividades comerciales en el país de Colombia.</p>
+        </section><!-- fin banner -->
+        
+        <section id="cuerpo"><!-- inicio cuerpo de la pagina -->
+            
+            <form>
+                <fieldset><!-- inicio grupo controles -->
+                    <legend>Ingrese los siguientes datos</legend><!-- titulo del grupo controles -->
+                    <div>
+                        <label for="label1">label1:</label>
+                        <input type="text" id="label1"/>
+                    </div>
+                    <div>
+                        <label for="label2">label2:</label>
+                        <input type="text" id="label2"/>
+                    </div>
+                    <div>
+                        <form>
+                        <label for="label3">escoja una de las opciones disponibles:</label>
+                        <select name="seleccion1" id="seleccion1">
+                            <optgroup label="Seleccione una opcion">
+                                <option selected="selected">Opcion por default</option>
+                                <option id="opcion1" value="1">Opcion1</option>
+                                <option id="opcion2" value="2">Opcion2</option>
+                                <option id="opcion3" value="3">Opcion3</option>
+                                <option id="opcion4" value="4">Opcion4</option>
+                            </optgroup>
+                        </select>
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="label4">escoja solo una de las opciones disponibles:</label>
+                            <!--Los controles radio deben llevar el mismo nombre(name) y el mismo tipo, solo cambia el valor -->
+                            <br/>
+                            <input name="seleccion_unica" type="radio" value="opcion1"/>opcion1
+                            <br/>
+                            <input name="seleccion_unica" type="radio" value="opcion2"/>opcion2
+                            <br/>
+                            <input name="seleccion_unica" type="radio" value="opcion3" checked="checked"/>opcion3
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="label5">escoja una o varias de las opciones disponibles:</label>
+                            <!--Los controles radio deben llevar el mismo nombre y el mismo tipo, solo cambia el valor -->
+                            <br/>
+                            <input name="seleccion multiple1" type="checkbox" value="opcion4" checked="checked"/>opcion4
+                            <br/>
+                            <input name="seleccion multiple2" type="checkbox" value="opcion5"/>opcion5
+                            <br/>
+                            <input name="seleccion multiple3" type="checkbox" value="opcion6"/>opcion6
+                        </form>
+                    </div>
+                    <div>
+                        <input type="button" id="boton1" value="Aceptar" onclick="alert('Informacion cargada')" 
+                        onerror="alert('No se puedo cargar, intente de nuevo')"/>
+                    </div>
+                </fieldset><!-- fin grupo controles -->
+            </form>
+        </section><!-- fin cuerpo de la pagina -->
+
+        <section id="publicidad"><!-- inicio publicidad de la pagina -->
+            <div>
+                <p>Espacio Publicitario.</p>
+                <p>Marcas patrocinadas.</p>
+                <p>Copyright, Todos los derechos reservados.</p>
+            </div>
+        </section><!-- fin publicidad de la pagina -->
+
+    </section><!-- fin contenedor principal -->
+</body>
+<!-- Finaliza Cuerpo de la pagina web -->
+
+<!-- Inicia Pie de la pagina web -->
+<footer> 
+    <p>-*-*--*-*--*-*--*-*--*-*--*-*--*-*--*-*-</p>
     <p>Author:ING. JUAN CARLOS DIAZ MONTIEL</p>
     <p>REPRESENTANTE LEGAL</p>
 </footer>
-    
+<!-- Finaliza Pie de la pagina web -->
+
 </html>
