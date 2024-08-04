@@ -1,16 +1,30 @@
+#header, #footer {
+    background-color: #666;
+    font: Segoe UI;
+    width: 100%;
+    height: 100%;
+}
+
 body {
-    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: lightgray;
+    background-image: url("R7.png");
+    font: Segoe UI;
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px 12px 12px; 
+    background-color: mintcream;
 }
 
 .contenedor{
-    width: 60%;
-    height: 90%;
-    margin: 1% 1% 1% 1%;
-    border: 15px solid dodgerblue;
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    background-color: navajowhite;
+    height: 100%;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid #CCC;
+    opacity: 0.85;
+    padding: 12px 12px 12px 12px;
 }
 
 div{
@@ -51,6 +65,14 @@ h1{
     border: 1px solid black;
 }
 
+#servicios{
+    font-size: 18px;
+    width: 100%;
+    height: 400px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px; 
+}
 .publicidad {
     clear: both;
 	background:#2c2c2c;
